@@ -8,10 +8,25 @@ body{
     background-color: #7B2869;
     width: 100vw;
     height: 100vh;
+    display:flex;
+    justify-content: center;
+    padding: 15vh 0;
 
 }
 #container{
     width: 70vw;
     background-color: aliceblue;
-    min-height: 10vh;
+    min-height: 20vh;
+    padding: 15px 60px;
+}
+#top-row{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    font-family:sans-serif ;
+
+}
+#top-row a{
+    text-decoration: none;
+    color: black;
 }
